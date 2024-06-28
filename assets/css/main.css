@@ -1476,8 +1476,8 @@ section,
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
-  left: 60px;
-  right: 60px;
+  left: 20%;
+  right: 20%;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
@@ -1485,7 +1485,7 @@ section,
   padding: 15px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   .portfolio .portfolio-item .portfolio-info {
     left: 30px;
     right: 30px;
