@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -89,15 +91,20 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio-NTU" class="portfolio section">
 
       <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="section-title">
+          <h2>NTU</h2>
+        </div>
+
+        <div class="isotope-layout" data-default-filter=".filter-teacher" data-layout="masonry"
+          data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-teacher">teacher</li>
+            <!-- <li data-filter="*" class="filter-active">All</li> -->
+            <li data-filter=".filter-teacher" class="filter-active">teacher</li>
             <li data-filter=".filter-team1">team1</li>
             <li data-filter=".filter-team2">team2</li>
             <li data-filter=".filter-team3">team3</li>
@@ -107,20 +114,19 @@
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-    
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
-              <img src="assets/img/members/teacher/teacher_ntu_01.jpg" class="img-fluid" alt="">
+              <img src="assets/img/members/teacher/teacher_ntu_01.jpg" class="img-fluid mx-auto d-block" alt="">
               <div class="portfolio-info">
                 <h4>陳業寧</h4>
                 <p>副院長</p>
                 <p>財務金融學系</p>
-                <!-- <a href="assets/img/members/teacher/teacher_ntu_01.jpg" title="陳業寧" data-gallery="portfolio-gallery-app" class="glightbox preview-link "><i class="bi bi-zoom-in"></i></a> -->
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                <!-- <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
-              <img src="assets/img/members/teacher/teacher_ntu_05.jpg" class="img-fluid" alt="">
+              <img src="assets/img/members/teacher/teacher_ntu_05.jpg" class="img-fluid mx-auto d-block" alt="">
               <div class="portfolio-info">
                 <h4>林世銘</h4>
                 <p>教授</p>
@@ -132,7 +138,7 @@
 
 
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
-              <img src="assets/img/members/teacher/teacher_ntu_06.jpg" class="img-fluid" alt="">
+              <img src="assets/img/members/teacher/teacher_ntu_06.jpg" class="img-fluid mx-auto d-block" alt="">
               <div class="portfolio-info">
                 <h4>尤琳蕙</h4>
                 <p>助理教授</p>
@@ -143,7 +149,7 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
-              <img src="assets/img/members/teacher/teacher_ntu_07.jpg" class="img-fluid" alt="">
+              <img src="assets/img/members/teacher/teacher_ntu_07.jpg" class="img-fluid mx-auto d-block" alt="">
               <div class="portfolio-info">
                 <h4>鄭惠文</h4>
                 <p>女士</p>
@@ -154,160 +160,174 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-team1">
-              <img src="assets/img/members/student/team1/student_ntu_01_01.jpg" class="img-fluid" alt="">
+              <img src="assets/img/members/student/team1/student_ntu_01_01.jpg" class="img-fluid mx-auto d-block"
+                alt="">
               <div class="portfolio-info">
                 <h4>李鎮宇</h4>
                 <p>資訊管理學系</p>
-                <a href="assets/img/members/student/team1/student_ntu_01_01.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="members_details/team1/ntu-01.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-            
-
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="assets/img/members/student/team1/student_ntu_01_01.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="members_details/team1/ntu-01.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-team1">
+              <img src="assets/img/members/student/team1/student_ntu_01_02.jpg" class="img-fluid mx-auto d-block"
+                alt="">
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>陳韋傑</h4>
+                <p>會計學系</p>
+                <!-- <a href="assets/img/members/student/team1/student_ntu_01_01.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="members_details/team1/ntu-02.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
 
         </div>
-
       </div>
 
     </section><!-- /Portfolio Section -->
 
+    <section id="portfolio-PKU" class="portfolio section">
+
+      <div class="container">
+
+        <div class="section-title">
+          <h2>PKU</h2>
+        </div>
+
+        <div class="isotope-layout" data-default-filter=".filter-teacher" data-layout="masonry"
+          data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <!-- <li data-filter="*" class="filter-active">All</li> -->
+            <li data-filter=".filter-teacher" class="filter-active">teacher</li>
+            <li data-filter=".filter-team1">team1</li>
+            <li data-filter=".filter-team2">team2</li>
+            <li data-filter=".filter-team3">team3</li>
+            <li data-filter=".filter-team4">team4</li>
+            <li data-filter=".filter-team5">team5</li>
+            <li data-filter=".filter-team6">team6</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
+              <img src="assets/img/members/teacher/teacher_pku_01.jpg" class="img-fluid mx-auto d-block" alt="">
+              <div class="portfolio-info">
+                <h4>張聖平</h4>
+                <p>副院長</p>
+                <p>金融學系</p>
+                <!-- <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
+              <img src="assets/img/members/teacher/teacher_pku_02.jpg" class="img-fluid mx-auto d-block" alt="">
+              <div class="portfolio-info">
+                <h4>沈俏蔚</h4>
+                <p>教授</p>
+                <p>市場營銷學系</p>
+                <!-- <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-teacher">
+              <img src="assets/img/members/teacher/teacher_pku_03.jpg" class="img-fluid mx-auto d-block" alt="">
+              <div class="portfolio-info">
+                <h4>劉知</h4>
+                <p>助理教授</p>
+                <p>組織與戰略管理學系</p>
+                <!-- <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-team1">
+              <img src="assets/img/members/student/team1/student_ntu_01_01.jpg" class="img-fluid mx-auto d-block"
+                alt="">
+              <div class="portfolio-info">
+                <h4>李鎮宇</h4>
+                <p>資訊管理學系</p>
+                <!-- <a href="assets/img/members/student/team1/student_ntu_01_01.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="members_details/team1/ntu-01.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-team1">
+              <img src="assets/img/members/student/team1/student_ntu_01_02.jpg" class="img-fluid mx-auto d-block"
+                alt="">
+              <div class="portfolio-info">
+                <h4>陳韋傑</h4>
+                <p>會計學系</p>
+                <!-- <a href="assets/img/members/student/team1/student_ntu_01_01.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="members_details/team1/ntu-02.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
   </main>
 
-  <footer id="footer" class="footer">
 
+  <footer id="footer" class="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Nova</span>
+              <span class="sitename">Elite Camp 2024</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta donna mare fermentum
+              iaculis eu non diam phasellus.
+            </p>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="members.html">Members</a></li>
+              <li><a href="#">Reports</a></li>
+              <li><a href="publications.html">Publications</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Relative Links</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="https://management.ntu.edu.tw/">Department of Management</a></li>
+              <li><a href="https://elitecamp.management.ntu.edu.tw/">Past years</a></li>
+              <li><a href="https://elitecamp.management.ntu.edu.tw/gallery/">Gallery</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
-            <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>台北市羅斯福路四段一號</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+886-2-33661000</span>
+            </p>
+            <p><strong>Email:</strong> <a href="mailto:manage@ntu.edu.tw">manage@ntu.edu.tw</a></p>
           </div>
-
         </div>
       </div>
     </div>
+
 
     <div class="container copyright text-center">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Nova</strong> <span>All Rights Reserved</span></p>
@@ -323,7 +343,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
