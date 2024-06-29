@@ -58,7 +58,7 @@
             <a href="#"><span>Trip</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Taiwan</a></li>
+              <li><a href="taiwan.html">Taiwan</a></li>
               <li><a href="#">China</a></li>
             </ul>
           </li>
@@ -88,6 +88,18 @@
               </p>
               <p>
                 活動分兩階段：7月14至20日，北大師生訪臺；7月24至30日，臺大師生回訪北京。
+              </p>
+              <p>
+                Last updated: <a id="datetime"></a>
+
+                <script>
+                  // Get current date and time
+                  var now = new Date();
+                  var datetime = now.toLocaleString();
+                
+                  // Insert date and time into HTML
+                  document.getElementById("datetime").innerHTML = datetime;
+                </script>
               </p>
             </blockquote>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -137,6 +149,7 @@
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
+            <p>國立臺灣大學管理學院</p>
             <p>台北市羅斯福路四段一號</p>
             <p class="mt-4">
               <strong>Phone:</strong> <span>+886-2-33661000</span>

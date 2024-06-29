@@ -1834,7 +1834,7 @@ section,
 }
 
 .blog-posts .post-img {
-  max-height: 240px;
+  max-height: 350px;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }
@@ -1849,7 +1849,7 @@ section,
   font-size: 20px;
   font-weight: 700;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 .blog-posts .title a {
