@@ -93,7 +93,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -707,8 +707,12 @@ section,
 
 .hero h1 {
   margin: 0;
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero h2 {
+  font-size: 30px;
 }
 
 .hero blockquote {
