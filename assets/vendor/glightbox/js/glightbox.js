@@ -2177,7 +2177,7 @@
           var gallery = element.getAttribute('data-gallery');
           if (gallery) {
             this.fullElementsList = this.elements;
-            this.elements = this.getGalleryElements(this.elements, gallery);
+            this.elements = this.get照片集Elements(this.elements, gallery);
           }
           if (isNil(index)) {
             index = this.getElementIndex(element);
@@ -2711,8 +2711,8 @@
         return list;
       }
     }, {
-      key: "getGalleryElements",
-      value: function getGalleryElements(list, gallery) {
+      key: "get照片集Elements",
+      value: function get照片集Elements(list, gallery) {
         return list.filter(function (el) {
           return el.gallery == gallery;
         });
