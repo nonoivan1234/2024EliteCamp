@@ -742,7 +742,7 @@ section,
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
-  margin-left: 20px;
+  margin-left: 30px;
   color: var(--default-color);
   font-weight: 600;
 }
@@ -772,10 +772,20 @@ section,
     font-size: 25px;
     line-height: 36px;
   }
-
-  .hero .btn-get-started,
+  
+  .hero .btn-get-started {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 10px;
+  }
+  
   .hero .btn-watch-video {
     font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .hero .btn-watch-video i {
+    font-size: 20px;
   }
 }
 
